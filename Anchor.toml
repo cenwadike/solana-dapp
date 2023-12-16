@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+solana_dapp = "6m7zQqFucXQgGxeXDCB3Yg25TeMx41iWrAgWtbBiFXda"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/Users/cenwadike/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solana_dapp.js"
